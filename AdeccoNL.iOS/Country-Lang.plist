@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Adecco UK</key>
+	<dict>
+		<key>English</key>
+		<string>en-GB</string>
+	</dict>
+	<key>Adecco Netherlands</key>
+	<dict>
+		<key>Dutch</key>
+		<string>nl-NL</string>
+	</dict>
+	<key>Adecco Switzerland</key>
+	<dict>
+		<key>Deutsch</key>
+		<string>de-CH</string>
+		<key>English</key>
+		<string>en-us</string>
+		<key>Italiano</key>
+		<string>it-CH</string>
+		<key>Francais</key>
+		<string>fr-CH</string>
+	</dict>
+	<key>Adecco France</key>
+	<dict>
+		<key>French</key>
+		<string>fr-FR</string>
+	</dict>
+</dict>
+</plist>
