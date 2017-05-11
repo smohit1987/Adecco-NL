@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>Adecco-NL</string>
+	<string>Adecco</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.adecco.Nl2</string>
+	<string>com.adecco.adecco</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

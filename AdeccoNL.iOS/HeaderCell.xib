@@ -24,7 +24,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="14" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                        <rect key="frame" x="0.0" y="43" width="375" height="1"/>
+                        <rect key="frame" x="0.0" y="43" width="414" height="1"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -107,6 +107,22 @@
         <image name="grey_arrow-down-icon.png" width="25" height="25"/>
         <image name="grey_arrow-right-icon.png" width="25" height="25"/>
         <image name="uncheck.png" width="25" height="25"/>
+        <image name="down-arrow.png" width="25" height="25"/>
+        <image name="Branch-down-arrow.png" width="25" height="25"/>
+        <image name="Branch-location-icon.png" width="25" height="25"/>
+        <image name="grey-cross-icon.png" width="16" height="16"/>
+        <image name="red-cross-icon.png" width="16" height="16"/>
+        <image name="editlocation.png" width="25" height="24"/>
+        <image name="selectedBG.png" width="325" height="272"/>
+        <image name="Home/selectedBG.png" width="325" height="272"/>
+        <image name="Home/facebook.png" width="40" height="40"/>
+        <image name="Home/linkedin.png" width="40" height="40"/>
+        <image name="Home/mail_icon.png" width="40" height="40"/>
+        <image name="Home/twitter_icon.png" width="40" height="40"/>
+        <image name="branch_locator.png" width="30" height="30"/>
+        <image name="setting.png" width="25" height="25"/>
+        <image name="Truck.png" width="20" height="20"/>
+        <image name="View Details.png" width="20" height="20"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina47"/>

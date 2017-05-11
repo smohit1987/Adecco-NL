@@ -3,6 +3,7 @@
 using Foundation;
 using UIKit;
 using System.Collections.Generic;
+using CoreGraphics;
 
 namespace AdeccoNL.iOS
 {
@@ -32,6 +33,22 @@ namespace AdeccoNL.iOS
 		{
 			this.lblKeyword.Text = aRecentSearch.Keyword;
 			this.lblLocation.Text = aRecentSearch.Location;
+
+			AppDelegate appDelegate = (AppDelegate)UIApplication.SharedApplication.Delegate;
+
+			if (appDelegate.Window.Frame.Size.Width == 320 && appDelegate.Window.Frame.Size.Height == 568)
+			{
+
+				this.lblKeyword.Frame = new CGRect(5, 5, 270, 25);
+				this.lblLocation.Frame = new CGRect(275, 5, 40, 40);
+
+			}
+			else if (appDelegate.Window.Frame.Size.Width == 414)
+			{	// iPhone 6+
+             	this.lblKeyword.Frame = new CGRect(100, 10, 290, 21);
+                this.lblLocation.Frame = new CGRect(100, 35, 290, 21);
+
+			}
 
 		}
 

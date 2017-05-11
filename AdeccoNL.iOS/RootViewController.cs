@@ -52,7 +52,7 @@ namespace AdeccoNL.iOS
 			else if (appDelegate.Window.Frame.Size.Width == 320 && appDelegate.Window.Frame.Size.Height == 568)
 				appDelegate.storyboard = "Phone5";
 
-			appDelegate.storyboard = "Phone";
+			//appDelegate.storyboard = "Phone";
 
 			var introController = (IntroController)Storyboard.InstantiateViewController("IntroController");
 			var menuController = (MenuController)Storyboard.InstantiateViewController("MenuController");

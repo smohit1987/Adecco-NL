@@ -8,7 +8,7 @@
             <objects>
                 <viewController id="56" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="57">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
@@ -30,7 +30,7 @@
             <objects>
                 <viewController id="63" sceneMemberID="viewController" customClass="ContentController" storyboardIdentifier="ContentController">
                     <view key="view" contentMode="scaleToFill" id="64">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
@@ -54,7 +54,7 @@
             <objects>
                 <viewController id="70" sceneMemberID="viewController" customClass="MenuController" storyboardIdentifier="MenuController">
                     <view key="view" contentMode="scaleToFill" id="71">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
@@ -66,7 +66,7 @@
                                         <rect key="frame" x="0.0" y="28" width="222" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="209" id="210">
-                                            <rect key="frame" x="0.0" y="0.0" width="189" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="189" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -87,7 +87,7 @@
             <objects>
                 <viewController id="112" sceneMemberID="viewController" useStoryboardIdentifierAsRestorationIdentifier="YES" customClass="IntroController" storyboardIdentifier="IntroController">
                     <view key="view" contentMode="scaleToFill" id="113">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
@@ -130,7 +130,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="160" id="161">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews/>
                                         </tableViewCellContentView>
@@ -182,7 +182,7 @@
             <objects>
                 <viewController id="231" sceneMemberID="viewController" customClass="SearchResultVC" storyboardIdentifier="SearchResultVC">
                     <view key="view" contentMode="scaleToFill" id="232">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
                         <subviews>
@@ -194,7 +194,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="244" id="245">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews/>
                                         </tableViewCellContentView>
@@ -225,7 +225,7 @@
             <objects>
                 <viewController id="287" sceneMemberID="viewController" customClass="JobDetailVC" storyboardIdentifier="JobDetailVC">
                     <view key="view" contentMode="scaleToFill" id="288">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" colorSpace="calibratedWhite" white="0.333333333333333" alpha="1"/>
                         <subviews>
@@ -450,12 +450,12 @@
             <objects>
                 <viewController id="566" sceneMemberID="viewController" customClass="WebViewController" storyboardIdentifier="WebViewController" useStoryboardIdentifierAsRestorationIdentifier="YES">
                     <view key="view" contentMode="scaleToFill" id="567">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="570">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
@@ -479,7 +479,7 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina55"/>
     </simulatedMetricsContainer>
     <resources>
         <image name="threelines.png" width="30" height="30"/>
@@ -535,5 +535,28 @@
         <image name="splash-screen-iphone6.png" width="750" height="1334"/>
         <image name="download.png" width="40" height="27"/>
         <image name="Badge.png" width="40" height="40"/>
+        <image name="arrow-down-icon.png" width="64" height="64"/>
+        <image name="arrow-down.png" width="21" height="21"/>
+        <image name="filter-icon.png" width="64" height="64"/>
+        <image name="check.png" width="25" height="25"/>
+        <image name="grey_arrow-down-icon.png" width="25" height="25"/>
+        <image name="grey_arrow-right-icon.png" width="25" height="25"/>
+        <image name="uncheck.png" width="25" height="25"/>
+        <image name="down-arrow.png" width="25" height="25"/>
+        <image name="Branch-down-arrow.png" width="25" height="25"/>
+        <image name="Branch-location-icon.png" width="25" height="25"/>
+        <image name="grey-cross-icon.png" width="16" height="16"/>
+        <image name="red-cross-icon.png" width="16" height="16"/>
+        <image name="editlocation.png" width="25" height="24"/>
+        <image name="selectedBG.png" width="325" height="272"/>
+        <image name="Home/selectedBG.png" width="325" height="272"/>
+        <image name="Home/facebook.png" width="40" height="40"/>
+        <image name="Home/linkedin.png" width="40" height="40"/>
+        <image name="Home/mail_icon.png" width="40" height="40"/>
+        <image name="Home/twitter_icon.png" width="40" height="40"/>
+        <image name="branch_locator.png" width="30" height="30"/>
+        <image name="setting.png" width="25" height="25"/>
+        <image name="Truck.png" width="20" height="20"/>
+        <image name="View Details.png" width="20" height="20"/>
     </resources>
 </document>

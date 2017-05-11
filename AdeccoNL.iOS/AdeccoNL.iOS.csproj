@@ -142,15 +142,15 @@
     <InterfaceDefinition Include="Main.storyboard" />
     <InterfaceDefinition Include="CustomCellJobListing.xib" />
     <InterfaceDefinition Include="RecentSearchesCell.xib" />
-    <InterfaceDefinition Include="Phone.storyboard" />
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
-    <InterfaceDefinition Include="Phone6PluS.storyboard" />
     <InterfaceDefinition Include="Phone5.storyboard" />
     <InterfaceDefinition Include="CustomCellJobLAert.xib" />
     <InterfaceDefinition Include="CustomCellBranchListing.xib" />
     <InterfaceDefinition Include="HeaderCell.xib" />
     <InterfaceDefinition Include="RefineCell.xib" />
     <InterfaceDefinition Include="MapViewController.xib" />
+    <InterfaceDefinition Include="Phone6PluS.storyboard" />
+    <InterfaceDefinition Include="Phone.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

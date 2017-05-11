@@ -361,6 +361,12 @@ namespace AdeccoNL.iOS
 				socialNetworkingBGView.Frame = new CoreGraphics.CGRect(0, descHeight, 320, 50);
 
 			}
+			else if (appDelegate.Window.Frame.Size.Width == 414)
+			{
+				// iphone 6+
+				socialNetworkingBGView.Frame = new CoreGraphics.CGRect(0, descHeight, 414, 50);
+
+			}
 			else
 			{
 				// iphone 6 
@@ -383,7 +389,18 @@ namespace AdeccoNL.iOS
 				this.baseScrollView.ContentSize = new CGSize(320, scrollviewHeight);
 
 			}
-			else
+			else if (appDelegate.Window.Frame.Size.Width == 414)
+
+			{
+				//scrollviewHeight = Math.Max(697, scrollviewHeight);
+
+				// iphone 6 
+				this.baseScrollView.ContentSize = new CGSize(414, scrollviewHeight);
+				//this.baseScrollView.Frame = new CGRect(0,0,414,scrollviewHeight);
+
+			}
+			else 
+
 			{
 				// iphone 6 
 				this.baseScrollView.ContentSize = new CGSize(375, scrollviewHeight);

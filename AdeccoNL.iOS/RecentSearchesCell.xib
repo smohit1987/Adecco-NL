@@ -32,7 +32,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                        <rect key="frame" x="100" y="35" width="220" height="20"/>
+                        <rect key="frame" x="100" y="35" width="220" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
                         <nil key="highlightedColor"/>
@@ -100,5 +100,30 @@
         <image name="Linkedin.png" width="31" height="31"/>
         <image name="twitter-icon.png" width="31" height="31"/>
         <image name="splash-screen-iphone6.png" width="750" height="1334"/>
+        <image name="download.png" width="40" height="27"/>
+        <image name="Badge.png" width="40" height="40"/>
+        <image name="arrow-down-icon.png" width="64" height="64"/>
+        <image name="arrow-down.png" width="21" height="21"/>
+        <image name="filter-icon.png" width="64" height="64"/>
+        <image name="check.png" width="25" height="25"/>
+        <image name="grey_arrow-down-icon.png" width="25" height="25"/>
+        <image name="grey_arrow-right-icon.png" width="25" height="25"/>
+        <image name="uncheck.png" width="25" height="25"/>
+        <image name="down-arrow.png" width="25" height="25"/>
+        <image name="Branch-down-arrow.png" width="25" height="25"/>
+        <image name="Branch-location-icon.png" width="25" height="25"/>
+        <image name="grey-cross-icon.png" width="16" height="16"/>
+        <image name="red-cross-icon.png" width="16" height="16"/>
+        <image name="editlocation.png" width="25" height="24"/>
+        <image name="selectedBG.png" width="325" height="272"/>
+        <image name="Home/selectedBG.png" width="325" height="272"/>
+        <image name="Home/facebook.png" width="40" height="40"/>
+        <image name="Home/linkedin.png" width="40" height="40"/>
+        <image name="Home/mail_icon.png" width="40" height="40"/>
+        <image name="Home/twitter_icon.png" width="40" height="40"/>
+        <image name="branch_locator.png" width="30" height="30"/>
+        <image name="setting.png" width="25" height="25"/>
+        <image name="Truck.png" width="20" height="20"/>
+        <image name="View Details.png" width="20" height="20"/>
     </resources>
 </document>

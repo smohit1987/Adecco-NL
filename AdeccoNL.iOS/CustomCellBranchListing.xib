@@ -84,7 +84,7 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
     </simulatedMetricsContainer>
     <resources>
         <image name="SidebarNavigation_128x128.png" width="128" height="128"/>
@@ -160,5 +160,8 @@
         <image name="Home/mail_icon.png" width="40" height="40"/>
         <image name="Home/twitter_icon.png" width="40" height="40"/>
         <image name="branch_locator.png" width="30" height="30"/>
+        <image name="setting.png" width="25" height="25"/>
+        <image name="Truck.png" width="20" height="20"/>
+        <image name="View Details.png" width="20" height="20"/>
     </resources>
 </document>

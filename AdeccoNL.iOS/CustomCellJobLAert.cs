@@ -37,6 +37,8 @@ namespace AdeccoNL.iOS
 
 			this.aTxtField = this.txtField;
 
+
+
 		}
 
 		public override void LayoutSubviews()
@@ -58,8 +60,24 @@ namespace AdeccoNL.iOS
 
 			this.txtField.LeftViewMode = UITextFieldViewMode.Always;
 			this.txtField.LeftView = new UIView(new RectangleF(0, 0, 10, 20)); //imageVie
-
 			titleLabel.TextColor = UIColor.DarkGray;
+
+			AppDelegate appDelegate = (AppDelegate)UIApplication.SharedApplication.Delegate;
+
+			if (appDelegate.Window.Frame.Size.Width == 320 && appDelegate.Window.Frame.Size.Height == 568)
+			{
+
+				//this.titleLabel.Frame = new CGRect(5, 5, 270, 25);
+				//this.btnFavJob.Frame = new CGRect(275, 5, 40, 40);
+
+			}
+			else if (appDelegate.Window.Frame.Size.Width == 414)
+			{	// iPhone 6+
+				
+				this.txtField.Frame = new CGRect(10, 35, 394, 40);
+
+			}
+
 
 		}
 
